@@ -3,8 +3,6 @@ Given an integer array `nums`, return `true` if any value appears **at least twi
 
 Leetcode Link : https://leetcode.com/problems/contains-duplicate/description/
 
----
-
 ##  Examples
 
 ### Example 1
@@ -21,24 +19,18 @@ Leetcode Link : https://leetcode.com/problems/contains-duplicate/description/
 - **Input:** `nums = [1,1,1,3,3,4,3,2,4,2]`
 - **Output:** `true`
 
----
-
 ## Constraints
 - `1 <= nums.length <= 10^5`
 - `-10^9 <= nums[i] <= 10^9`
 
----
-
 # Approaches
-
----
 
 ## 1. Brute Force Approach
 
 ### Idea
 - Compare every element with every other element
 
-### ⏱ Time Complexity
+### Time Complexity
 - `O(n^2)`
 
 ### Space Complexity
@@ -62,15 +54,15 @@ class Solution {
 
 ### 2. Sorting
 
-Idea
+### Idea
 
-Sort the array
+### Sort the array
 Compare adjacent elements
 
-Time Complexity  
+### Time Complexity  
 O(n log n)
 
-Space Complexity  
+### Space Complexity  
 O(1) (ignoring sorting space)
 
 Code
@@ -94,15 +86,17 @@ class Solution {
 
 ### 3. HashSet (Optimal)
 
-Idea
+### Idea
 
 Use a HashSet to track seen elements
 If an element already exists, return true
+<img width="950" height="499" alt="image" src="https://github.com/user-attachments/assets/6f31a84b-911a-49e5-bbae-7d859469e41a" />
 
-Time Complexity  
+
+### Time Complexity  
 O(n)
 
-Space Complexity  
+### Space Complexity  
 O(n)
 
 Code
