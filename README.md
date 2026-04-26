@@ -5,7 +5,6 @@
   <img src="https://img.shields.io/badge/Platform-LeetCode-orange" />
   <img src="https://img.shields.io/badge/Language-Java-red" />
   <img src="https://img.shields.io/badge/Habit-Daily%20Practice-green" />
-  <img src="https://img.shields.io/badge/Goal-Interview%20Preparation-purple" />
 </p>
 
 <p align="center">
